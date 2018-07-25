@@ -1,0 +1,92 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+body {
+  background-color: #490000;
+}
+
+
+nav ul a,
+nav,
+nav .brand-logo {
+  background-color: #490000; 
+  color: #fff;
+  font-family: 'UnifrakturMaguntia', cursive;
+
+
+}
+
+.row {
+font-family: Shrikhand,
+}
+
+p {
+  line-height: 2rem;
+
+}
+
+.sidenav-trigger {
+  color: #490000;
+}
+
+.btn-registrazione {
+padding-right: 10px;
+}
+
+.registrazione-icon {
+padding-right: 1em;
+background-color: #490000;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0 10em;
+  background-color: #490000;
+  font-family: 'UnifrakturMaguntia',cursive;
+}
+
+.Nota {
+  font-family: 'Galada',cursive;
+ }
+
+ .social-icon{
+  padding:0 20px;
+ }
